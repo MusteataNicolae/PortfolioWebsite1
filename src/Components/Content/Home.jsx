@@ -9,28 +9,21 @@ import 'aos/dist/aos.css'
 
 function Home() {
   
-  //for animation of the content in a component
+
   useEffect(() => {
     AOS.init({duration: 1000})
   }, [1000])
 
   const social = [
     {
-      link: 'https://www.linkedin.com/in/chirag-jain-77aa30148',
+      link: 'https://www.linkedin.com/feed/',
       icon: <FaLinkedinIn/>,
     },
     {
-      link: 'https://github.com/chiragjain307',
+      link: 'https://github.com/MusteataNicolae',
       icon: <AiFillGithub/>,
     },
-    {
-      link: 'https://twitter.com/mr_kasliwal',
-      icon: <FaXTwitter/>,
-    },
-    {
-      link: 'https://www.instagram.com/_mr_kasliwal_',
-      icon: <FaInstagram/>,
-    }
+    
   ]
 
   return (

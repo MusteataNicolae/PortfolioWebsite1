@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-/* for removing scrollbar in chrome, safari and opera */
 ::-webkit-scrollbar {
     display: none;
 }

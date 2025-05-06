@@ -6,7 +6,7 @@ import { AiFillGithub } from 'react-icons/ai'
 
 function Projects() {
   
-  //for animation of the content in a component
+  
   useEffect(() => {
     AOS.init({ duration: 1000 })
   }, [1000])

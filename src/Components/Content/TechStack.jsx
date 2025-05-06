@@ -5,7 +5,7 @@ import TechStackList from '../../All_Lists/TechStackList'
 
 function TechStack() {
 
-  //for animation of the content in a component
+  
   useEffect(() => {
     AOS.init({ duration: 1000 })
   }, [1000])

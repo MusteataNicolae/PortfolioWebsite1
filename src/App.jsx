@@ -14,7 +14,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react"
 function App() {
   const [loading, setLoading] = useState(false)
 
-  //for loading screen
+  
   useEffect(() => {
     setLoading(true)
     setTimeout(() => {

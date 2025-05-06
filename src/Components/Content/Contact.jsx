@@ -4,7 +4,7 @@ import 'aos/dist/aos.css'
 
 function Contact() {
   
-  //for animation of the content in a component
+
   useEffect(() => {
     AOS.init({ duration: 1000 })
   }, [1000])
